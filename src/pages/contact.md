@@ -1,9 +1,10 @@
 ---
 subtitle: CONTacT
-tags: contact
+order: 105
+layout: templates/textBlock.njk
 ---
 
-{%- extends "templates/textBlock.njk" %}
+{%- extends layout -%}
 
 {%- block content %}
   # {{ subtitle }}

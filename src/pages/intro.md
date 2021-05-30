@@ -1,9 +1,10 @@
 ---
 subtitle: INTRO
-tags: intro
+order: 100
+layout: templates/textBlock.njk
 ---
 
-{%- extends "templates/textBlock.njk" %}
+{%- extends layout -%}
 
 {%- block content %}
   # {{ subtitle }}
