@@ -1,0 +1,18 @@
+---
+title: HOME
+sections:
+  - intro
+  - about
+  - contact
+layout: layouts/base.njk
+---
+
+<main>
+{%- for tag in sections %}
+  {%- for block in collections[tag] %}
+    <!-- {{ tag }} -->
+    {{ block.templateContent | trim | safe }}
+    <!-- /{{ tag }} -->
+  {%- endfor %}
+{%- endfor %}
+</main>
