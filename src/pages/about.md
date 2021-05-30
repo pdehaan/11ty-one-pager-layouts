@@ -1,9 +1,10 @@
 ---
 subtitle: ABOUT
-tags: about
+order: 200
+layout: templates/iconBlock.njk
 ---
 
-{%- extends "templates/iconBlock.njk" %}
+{%- extends layout -%}
 
 {%- block content %}
   # {{ subtitle }}
