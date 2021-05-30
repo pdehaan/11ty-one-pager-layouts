@@ -1,17 +1,27 @@
 {
   "name": "11ty-one-pager-layouts",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-one-pager-layouts/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/11ty-one-pager-layouts#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-one-pager-layouts.git"
+  },
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
+    "prettier:www": "npx prettier www --write",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
   }
 }
